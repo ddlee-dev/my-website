@@ -47,7 +47,7 @@
 .avatar-arm {
   position: absolute;
   width: 100%;
-  bottom: -13px;
+  bottom: 0px;
   right: 0px;
   transform-origin: bottom right;
   animation: wave 3s infinite ease-in-out;
