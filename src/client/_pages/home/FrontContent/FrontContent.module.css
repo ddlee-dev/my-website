@@ -1,0 +1,330 @@
+.card-container-front {
+  position: relative;
+  padding: 1.2rem;
+  height: 100%;
+  color: white;
+  /* background: linear-gradient(160deg, #37485b, #382a43); */
+  box-shadow: 7px 7px 12px #7d7d7d, -7px -7px 12px #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+.greetings {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.my-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.my-description {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.my-avatar {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0px;
+}
+
+.avatar-blink {
+  bottom: -10px;
+  animation: blink 4s infinite ease-in-out 3s;
+}
+
+.avatar-arm {
+  position: absolute;
+  width: 100%;
+  bottom: -13px;
+  right: 0px;
+  transform-origin: bottom right;
+  animation: wave 3s infinite ease-in-out;
+}
+
+.greetings-1 {
+  display: inline-block;
+  transform: translateX(250px) scaleX(0.9);
+}
+
+.greetings-1:nth-of-type(1) {
+  animation: drop 0.4s linear forwards 1s;
+}
+
+.greetings-1:nth-of-type(2) {
+  animation: drop 0.4s linear forwards 1.2s;
+}
+
+.greetings-1:nth-of-type(3) {
+  animation: drop 0.4s linear forwards 1.3s;
+}
+
+.greetings-1:nth-of-type(4) {
+  animation: drop 0.4s linear forwards 1.4s;
+}
+
+.greetings-1:nth-of-type(5) {
+  animation: drop 0.4s linear forwards 1.5s;
+}
+
+.greetings-1:nth-of-type(6) {
+  animation: drop 0.4s linear forwards 1.6s;
+}
+
+.greetings-1:nth-of-type(7) {
+  animation: drop 0.4s linear forwards 1.7s;
+}
+
+.greetings-1:nth-of-type(8) {
+  animation: drop 0.4s linear forwards 1.8s;
+}
+
+.greetings-1:nth-of-type(9) {
+  animation: drop 0.4s linear forwards 1.9s;
+}
+
+.greetings-1:nth-of-type(10) {
+  animation: drop 0.4s linear forwards 2s;
+}
+
+.greetings-1:nth-of-type(11) {
+  animation: drop 0.4s linear forwards 2.1s;
+}
+
+.my-name-1 {
+  display: inline-block;
+  opacity: 0;
+}
+
+.my-name-1:nth-of-type(1) {
+  animation: fadeIn 0.4s forwards 2.6s;
+}
+
+.my-name-1:nth-of-type(2) {
+  animation: fadeIn 0.4s forwards 2.7s;
+}
+
+.my-name-1:nth-of-type(3) {
+  animation: fadeIn 0.4s forwards 2.8s;
+}
+
+.my-name-1:nth-of-type(4) {
+  animation: fadeIn 0.4s forwards 2.9s;
+}
+
+.my-name-1:nth-of-type(5) {
+  animation: fadeIn 0.4s forwards 3s;
+}
+
+.my-name-1:nth-of-type(6) {
+  animation: fadeIn 0.4s forwards 3.1s;
+}
+
+.my-name-1:nth-of-type(7) {
+  animation: fadeIn 0.4s forwards 3.2s;
+}
+
+.my-name-1:nth-of-type(8) {
+  animation: fadeIn 0.4s forwards 3.3s;
+}
+
+.my-name-1:nth-of-type(9) {
+  animation: fadeIn 0.4s forwards 3.4s;
+}
+
+.my-name-1:nth-of-type(10) {
+  animation: fadeIn 0.4s forwards 3.5s;
+}
+
+.my-name-1:nth-of-type(11) {
+  animation: fadeIn 0.4s forwards 3.6s;
+}
+
+.my-description-1 {
+  display: inline-block;
+  opacity: 0;
+}
+
+.my-description-1:nth-of-type(1) {
+  animation: fadeIn 0.4s linear forwards 4.1s;
+}
+
+.my-description-1:nth-of-type(2) {
+  animation: fadeIn 0.4s linear forwards 4.2s;
+}
+
+.my-description-1:nth-of-type(3) {
+  animation: fadeIn 0.4s linear forwards 4.3s;
+}
+
+.my-description-1:nth-of-type(4) {
+  animation: fadeIn 0.4s linear forwards 4.4s;
+}
+
+.my-description-1:nth-of-type(5) {
+  animation: fadeIn 0.4s linear forwards 4.5s;
+}
+
+.my-description-1:nth-of-type(6) {
+  animation: fadeIn 0.4s linear forwards 4.6s;
+}
+
+.my-description-1:nth-of-type(7) {
+  animation: fadeIn 0.4s linear forwards 4.7s;
+}
+
+.my-description-1:nth-of-type(8) {
+  animation: fadeIn 0.4s linear forwards 4.8s;
+}
+
+.my-description-1:nth-of-type(9) {
+  animation: fadeIn 0.4s linear forwards 4.9s;
+}
+
+.my-description-1:nth-of-type(10) {
+  animation: fadeIn 0.4s linear forwards 5s;
+}
+
+.my-description-1:nth-of-type(11) {
+  animation: fadeIn 0.4s linear forwards 5.1s;
+}
+
+.my-description-1:nth-of-type(12) {
+  animation: fadeIn 0.4s linear forwards 5.2s;
+}
+
+.my-description-1:nth-of-type(13) {
+  animation: fadeIn 0.4s linear forwards 5.3s;
+}
+
+.my-description-1:nth-of-type(14) {
+  animation: fadeIn 0.4s linear forwards 5.4s;
+}
+
+.my-description-1:nth-of-type(15) {
+  animation: fadeIn 0.4s linear forwards 5.5s;
+}
+
+@keyframes popup {
+  0% {
+    transform: translateY(100%);
+  }
+  70% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(5%);
+  }
+}
+
+@keyframes drop {
+  0% {
+    transform: translateX(250px) scaleX(0.9);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateX(0px) scaleX(1);
+    opacity: 1;
+  }
+  65% {
+    transform: translateX(-17px) scaleX(0.9);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(-22px) scaleX(0.9);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px) scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    bottom: 0px;
+  }
+  5% {
+    bottom: 10px;
+  }
+  10% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes jiggle {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes cycle {
+  0% {
+    background-color: black;
+  }
+  4% {
+    background-color: black;
+  }
+  6% {
+    background-color: white;
+  }
+  8% {
+    background-color: black;
+  }
+  20% {
+    background-color: black;
+  }
+  100% {
+    background-color: black;
+  }
+}
