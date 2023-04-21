@@ -64,15 +64,22 @@
   margin: 2.5rem auto;
   padding: 0.5rem 2rem;
   font-size: 2rem;
-  border: none;
-  border-radius: 30px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 1);
   backdrop-filter: blur(10px);
-  z-index: 10;
-  transition: transform 0.1s ease-in-out;
-  transform-style: preserve-3d;
-  transform: translateY(0px) scale(1);
+  border: none;
+  border-radius: 6px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
-  user-select: none;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1);
+  z-index: 0;
+}
+
+.flip-button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.flip-button:active {
+  transform: scale(1);
 }

@@ -64,7 +64,8 @@ const BackContent = () => {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              background: "linear-gradient(90deg, #00507c 100%, #ececec)",
+              background: "#01649b",
+              boxShadow: "0px 0px 3px #ffffff, -0px -0px 4px #005685",
             }}
           >
             Visit My LinkedIn
@@ -77,7 +78,8 @@ const BackContent = () => {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              background: "linear-gradient(900deg, #191919,#333333)",
+              background: "#2c2c2c",
+              boxShadow: "0px 0px 3px #ffffff, -0px -0px 4px #2c2c2c",
             }}
           >
             Browse My Github
@@ -90,7 +92,8 @@ const BackContent = () => {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              background: "linear-gradient(900deg, #327865,#1a604e)",
+              background: "#4B8500",
+              boxShadow: "0px 0px 3px #ffffff, -0px -0px 4px #4B8500",
             }}
           >
             Send Me An Email
@@ -104,7 +107,8 @@ const BackContent = () => {
             rel="noopener noreferrer"
             download="david_lee_resume_2023.pdf"
             style={{
-              background: "linear-gradient(900deg, #ff3370,#901974)",
+              background: "#D60557",
+              boxShadow: "0px 0px 3px #ffffff, -0px -0px 4px #ff3370",
             }}
           >
             Download My Resume

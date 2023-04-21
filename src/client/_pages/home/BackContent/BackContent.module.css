@@ -37,10 +37,10 @@
   display: inline;
   margin-right: 0px;
   margin-bottom: 10px;
-  color: black;
-  font-weight: 400;
   width: 100%;
   height: fit-content;
+  color: black;
+  font-weight: 400;
 }
 
 .icon-link {
@@ -49,16 +49,16 @@
   width: 100%;
   height: auto;
   padding: 0rem 1rem;
+  margin-bottom: 0.2rem;
   font-size: 0.8rem;
   line-height: 1.8rem;
   letter-spacing: 1px;
   text-align: center;
+  cursor: pointer;
   color: white;
   border-radius: 6px;
-  cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   transition: transform 0.2s ease-in-out;
-  border: 2px solid rgba(255, 255, 255, 0.431);
 }
 
 .icon-link:hover {
