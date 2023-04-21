@@ -8,7 +8,6 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ frontContent, backContent }) => {
   const [isFlipped, setIsFlipped] = useState(false);
-  const [shouldDip, setShouldDip] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
 
   const labelText = isFlipped
@@ -24,9 +23,6 @@ const Card: FC<CardProps> = ({ frontContent, backContent }) => {
 
     const newState = !isFlipped;
     setIsFlipped(newState);
-
-    setShouldDip(true);
-    setTimeout(() => setShouldDip(false), 400);
 
     cardRef.current?.focus();
   };
@@ -56,9 +52,7 @@ const Card: FC<CardProps> = ({ frontContent, backContent }) => {
       {backContent && (
         <div className={styles["button-container"]}>
           <button
-            className={`${styles["flip-button"]} ${
-              shouldDip ? styles["flip-animate"] : ""
-            }`}
+            className={styles["flip-button"]}
             onClick={handleFlip}
             aria-pressed={isFlipped}
             aria-label={buttonLabelText}
