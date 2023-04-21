@@ -49,7 +49,7 @@ const BackContent = () => {
           <Badge>WCAG</Badge>
         </li>
         <li>
-          <Badge>UI/UX</Badge>
+          <Badge>UX/UI</Badge>
         </li>
       </ul>
       <h2 id="contact-list">EXTRAS</h2>
