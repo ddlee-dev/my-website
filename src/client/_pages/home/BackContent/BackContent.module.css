@@ -8,7 +8,6 @@
   background-size: 400% 400%;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
-  animation: bgWave 10s infinite ease-in-out;
   box-shadow: 7px 7px 12px #7d7d7d, -7px -7px 12px #ffffff;
 }
 
@@ -69,21 +68,6 @@
   color: rgb(255, 255, 255);
   transition: transform 0.2s ease-in-out;
   animation: jiggle 0.2s forwards ease-in-out;
-}
-
-@keyframes bgWave {
-  0% {
-    background-size: 400% 400%;
-    background-position: 0% 50%;
-  }
-  50% {
-    background-size: 400% 400%;
-    background-position: 100% 50%;
-  }
-  100% {
-    background-size: 400% 400%;
-    background-position: 0% 50%;
-  }
 }
 
 @keyframes jiggle {

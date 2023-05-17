@@ -52,7 +52,7 @@ const BackContent = () => {
           <Badge>UX/UI</Badge>
         </li>
       </ul>
-      <h2 id="contact-list">EXTRAS</h2>
+      <h2 id="contact-list">LINKS FOR YOU</h2>
       <ul
         className={styles["list-container-full"]}
         aria-labelledby="contact-list"

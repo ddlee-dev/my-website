@@ -3,7 +3,6 @@
   padding: 1.2rem;
   height: 100%;
   color: white;
-  /* background: linear-gradient(160deg, #37485b, #382a43); */
   box-shadow: 7px 7px 12px #7d7d7d, -7px -7px 12px #ffffff;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
@@ -32,15 +31,26 @@
   line-height: 1.4;
 }
 
-.my-avatar {
+.img-container {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 0px;
+  right: 0px;
+  animation: popup 1s ease-in-out forwards;
+}
+
+.avatar {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
   right: 0px;
 }
 
 .avatar-blink {
+  position: absolute;
+  width: 100%;
   bottom: -10px;
+  right: 0px;
   animation: blink 4s infinite ease-in-out 3s;
 }
 
@@ -216,18 +226,7 @@
   animation: fadeIn 0.4s linear forwards 5.5s;
 }
 
-@keyframes popup {
-  0% {
-    transform: translateY(100%);
-  }
-  70% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(5%);
-  }
-}
-
+/* Letter animations */
 @keyframes drop {
   0% {
     transform: translateX(250px) scaleX(0.9);
@@ -263,6 +262,19 @@
   }
 }
 
+/* Avatar animations */
+@keyframes popup {
+  0% {
+    transform: translateY(300px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 @keyframes blink {
   0% {
     bottom: 0px;
@@ -287,44 +299,5 @@
   }
   100% {
     transform: rotate(0deg);
-  }
-}
-
-@keyframes jiggle {
-  0% {
-    transform: translateY(0px);
-  }
-  25% {
-    transform: translateY(10px);
-  }
-  50% {
-    transform: translateY(0px);
-  }
-  75% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-
-@keyframes cycle {
-  0% {
-    background-color: black;
-  }
-  4% {
-    background-color: black;
-  }
-  6% {
-    background-color: white;
-  }
-  8% {
-    background-color: black;
-  }
-  20% {
-    background-color: black;
-  }
-  100% {
-    background-color: black;
   }
 }

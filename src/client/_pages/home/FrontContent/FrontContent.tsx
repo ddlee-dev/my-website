@@ -79,34 +79,40 @@ const FrontContent = () => {
           </span>
         </p>
       </div>
-      <img
-        className={`${styles["my-avatar"]} ${styles["avatar-eyes"]}`}
-        src="/avatar_eyes.png"
-        alt="An animate avatar of David Lee waving his hand drawn in the style of a cartoon character."
-      />
-      <img
-        className={`${
-          !isLoaded
-            ? styles["my-avatar"]
-            : `${styles["my-avatar"]} ${styles["avatar-blink"]}`
-        }`}
-        src="/avatar_blink.png"
-        aria-hidden="true"
-      />
-      <img
-        className={styles["my-avatar"]}
-        src="/avatar_body.png"
-        aria-hidden="true"
-      />
-      <img
-        className={`${
-          !isLoaded
-            ? styles["my-avatar"]
-            : `${styles["my-avatar"]} ${styles["avatar-arm"]}`
-        }`}
-        src="/avatar_arm.png"
-        aria-hidden="true"
-      />
+      <div className={styles["img-container"]}>
+        <p className="visually-hidden">
+          Below the introduction text, there is an animated cartoon image of
+          David Lee waving his hand.
+        </p>
+        <img
+          className={`${styles["avatar"]} ${styles["avatar-eyes"]}`}
+          src="/avatar_eyes.png"
+          aria-hidden="true"
+        />
+        <img
+          className={`${
+            !isLoaded
+              ? styles["avatar"]
+              : `${styles["avatar"]} ${styles["avatar-blink"]}`
+          }`}
+          src="/avatar_blink.png"
+          aria-hidden="true"
+        />
+        <img
+          className={styles["avatar"]}
+          src="/avatar_body.png"
+          aria-hidden="true"
+        />
+        <img
+          className={`${
+            !isLoaded
+              ? styles["avatar"]
+              : `${styles["avatar"]} ${styles["avatar-arm"]}`
+          }`}
+          src="/avatar_arm.png"
+          aria-hidden="true"
+        />
+      </div>
     </div>
   );
 };
