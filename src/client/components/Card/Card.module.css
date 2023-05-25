@@ -60,7 +60,7 @@
 .flip-button {
   position: relative;
   height: fit-content;
-  margin: 2.5rem auto;
+  margin: 0 auto;
   padding: 0.5rem 2rem;
   font-size: 2rem;
   color: white;
@@ -94,14 +94,14 @@
   }
   90% {
     transform: scale(1);
-    height: 125px;
-    margin-bottom: 45px;
+    height: 85px;
+    /* margin-bottom: 45px; */
     opacity: 0.5;
   }
   100% {
     transform: scale(1);
-    height: 120px;
-    margin-bottom: 40px;
+    height: 80px;
+    /* margin-bottom: 40px; */
     opacity: 1;
   }
 }
