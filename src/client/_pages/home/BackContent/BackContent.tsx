@@ -60,7 +60,7 @@ const BackContent = () => {
         <li>
           <Link
             className={styles["icon-link"]}
-            href="https://www.linkedin.com/in/entropicthinker/"
+            href="https://www.linkedin.com/in/ddleedev/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -74,7 +74,7 @@ const BackContent = () => {
         <li>
           <Link
             className={styles["icon-link"]}
-            href="https://github.com/inquisitive-entropy"
+            href="https://github.com/ddlee-dev"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -88,7 +88,7 @@ const BackContent = () => {
         <li>
           <Link
             className={styles["icon-link"]}
-            href="mailto:entropic.thinker@gmail.com"
+            href="mailto:ddlee.dev@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -102,10 +102,10 @@ const BackContent = () => {
         <li>
           <Link
             className={styles["icon-link"]}
-            href="/david_lee_resume_2023.pdf"
+            href="/david_lee_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download="david_lee_resume_2023.pdf"
+            download="david_lee_resume.pdf"
             style={{
               background: "#D60557",
               boxShadow: "0px 0px 3px #ffffff, -0px -0px 4px #ff3370",
