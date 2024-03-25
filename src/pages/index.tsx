@@ -10,13 +10,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Entropic Thinker&apos;s Website</title>
+        <title>David Lee&apos;s Website</title>
         <meta name="description" content="Welcome to David Lee's Website." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${fontType.className}`}>
-        <h1 className="visually-hidden">Entropic Thinker&apos;s Website</h1>
+        <h1 className="visually-hidden">David Lee&apos;s Website</h1>
         <App />
       </main>
       <Analytics />
